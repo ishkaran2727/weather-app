@@ -162,7 +162,7 @@ public class Activity2 extends AppCompatActivity {
         }
     }
 
-    protected void gotomaps(){
+    protected void gotomaps(View view){
         //EditText editText1 = (EditText) findViewById(R.id.editText1);
         //String cityname_1 = editText1.getText().toString();
         JSONObject jsonObject1 = new JSONObject(s);
